@@ -19,6 +19,7 @@ Step 1:
   + admin, password
   + port
   + VPN 
+ 
  Step 2:
  - Fill data in controller.py
  - Creat 'test' DB 
@@ -27,7 +28,8 @@ Step 1:
    + 'Config_cam
    + 'house'
    + 'room'
-- key 'house','room','cam' in 'Cam_Thu_Duc' collection is identified by Object_id
+- key 'house','room','cam' in 'Cam_Thu_Duc' collection is identified by Object_id.
+
  Step 3:
  - Run app.py
  - Search API to controller with arguement which is got in MongoDB or log in {{ip address}} on browser
