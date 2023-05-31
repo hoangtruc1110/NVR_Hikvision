@@ -11,7 +11,10 @@ a = NVR(ip_cam="172.16.0.2", admin="admin", password="Cozrum@321", local_host_mo
 
 @books.route("/")
 def main():
-    return "******************************  WELCOME TO TRUC'S SERVER  ******************************"
+    return ["******************************((:  WELCOME TO NVR SERVER  :))******************************",
+           "https://github.com/hoangtruc1110/NVR_Hikvision.git" ,
+           "Read it",
+           "Thanks"]
 
 @books.route("/realtime/<string:db>/<string:collection>",methods=['GET'])
 def get_all_log(db,collection):
