@@ -22,7 +22,7 @@ Step 1:
   + VPN 
  
  Step 2:
- - Install the required libraries in NVR_Hikvision.py and controller.py
+ - Install the required libraries in NVR_Hikvision.py and controller.py in Library/BOOK/controller.py
  - Fill data in controller.py
  - Creat 'test' DB 
  - Collection :
