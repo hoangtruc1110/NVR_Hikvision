@@ -14,7 +14,9 @@ def main():
     return ["******************************((:  WELCOME TO NVR SERVER  :))******************************",
            "https://github.com/hoangtruc1110/NVR_Hikvision.git" ,
            "Read it",
-           "Thanks"]
+           "Thanks",
+            "Goodbye Cozrum",
+            "Cam on sep Tu va anh Tu da dong hang cung em"]
 
 @books.route("/realtime/<string:db>/<string:collection>",methods=['GET'])
 def get_all_log(db,collection):
