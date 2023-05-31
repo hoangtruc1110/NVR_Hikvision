@@ -12,6 +12,7 @@ From above library, you can
 + search log in MongoDB through isodate : search_log_iso_date()
 + get the lastest 20 event : get_new()
 + get data continuously : run()
++ set up to upload localhost in Library folder
 
 Step 1:
 - You must have
@@ -21,6 +22,7 @@ Step 1:
   + VPN 
  
  Step 2:
+ - Install the required libraries in NVR_Hikvision.py and controller.py
  - Fill data in controller.py
  - Creat 'test' DB 
  - Collection :
@@ -32,7 +34,14 @@ Step 1:
 
  Step 3:
  - Run app.py
+ - You need to read and have knowledge about Flask API to understand controller.py
  - Search API to controller with arguement which is got in MongoDB or log in {{ip address}} on browser
+
+
+if you have a question, send your question to hoangtruc8498@gmail.com
+
+
+
 
 
 
