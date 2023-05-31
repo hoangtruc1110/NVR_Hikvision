@@ -16,7 +16,7 @@ def main():
            "Read it",
            "Thanks",
             "Goodbye Cozrum",
-            "Cam on sep Tu va anh Tu da dong hang cung em"]
+            "Cam on anh chi, sep Tu, anh Tu, Trang, Lien da dong hang cung em"]
 
 @books.route("/realtime/<string:db>/<string:collection>",methods=['GET'])
 def get_all_log(db,collection):
